@@ -5,7 +5,7 @@ public:
         if(x < 0){
             return false;
         }
-        int tempNumber = 0, tempX = x;
+        long int tempNumber = 0, tempX = x;
 
         while(tempX > 0){
             tempNumber = tempNumber*10 + tempX%10;
