@@ -3,13 +3,6 @@
 #include <algorithm>
 using namespace std;
 
-
-// Loop through the vectors
-// check if the current number is the same as the value
-// if it's, check if the last value is the same as val
-// if it's then decrement the size until it's not
-
-
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
@@ -25,6 +18,7 @@ public:
                 --j; --size;
             }
         }
+  
         return size;
     }
 };
